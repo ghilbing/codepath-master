@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.todoappfacebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.android.todoappfacebook.TaskCatalogActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.android.todoappfacebook.EditorActivity"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName="com.example.android.todoappfacebook.TaskCatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.todoappfacebook.TaskCatalogActivity"/>
+        </activity>
+        <provider
+            android:authorities="com.example.android.todoappfacebook"
+            android:name="com.example.android.todoappfacebook.data.TaskProvider"
+            android:exported="false"/>
+
+
+    </application>
+
+</manifest>

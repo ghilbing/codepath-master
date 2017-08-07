@@ -1,0 +1,111 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">ToDo App Facebook</string>
+
+    <!-- Label for overflow menu option that inserts fake task data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all task data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Tasks</string>
+
+    <!-- Title for the activity to add a new task [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_task">Add a Task</string>
+
+    <!-- Title for the activity to edit a task [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_task">Edit a Task</string>
+
+    <!-- Label for editor menu option to save task and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current task [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for due date information in the editor [CHAR LIMIT=30] -->
+    <string name="due_date">Due Date</string>
+
+    <!-- Label for priority information in the editor [CHAR LIMIT=30] -->
+    <string name="category_priority">Priority</string>
+
+    <!-- Label for status information in the editor [CHAR LIMIT=30] -->
+    <string name="status">Status</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_task_name">Task name</string>
+
+    <!-- Text hint for note field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_task_note">Notes</string>
+
+    <!-- Text hint for note field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_notes">Notes</string>
+
+
+    <!-- Label for dropdown menu option if the priority is low [CHAR LIMIT=20] -->
+    <string name="priority_low">LOW</string>
+
+    <!-- Label for dropdown menu option if the priority is high [CHAR LIMIT=20] -->
+    <string name="priority_high">HIGH</string>
+
+    <!-- Label for dropdown menu option if the priority is medium [CHAR LIMIT=20] -->
+    <string name="priority_medium">MEDIUM</string>
+
+    <!-- Label for dropdown menu option if the priority is unknown [CHAR LIMIT=20] -->
+    <string name="priority_unknown">UNKNOWN</string>
+
+    <!-- Label for dropdown menu option if the status is to do [CHAR LIMIT=20] -->
+    <string name="status_to_do">TO DO</string>
+
+    <!-- Label for dropdown menu option if the status is done [CHAR LIMIT=20] -->
+    <string name="status_done">DONE</string>
+
+    <!-- Label for dropdown menu option if the status is unknown [CHAR LIMIT=20] -->
+    <string name="status_unknown">UNKNOWN</string>
+
+    <!--Toast message in editor when new row has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_row_successfull">Row saved</string>
+
+    <!--Toast message in editor when new row has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_row_failed">The insertion failed</string>
+
+    <!-- Title text for the empty view, which describes the empty image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a task [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a task</string>
+
+    <!-- Toast message in editor when current task was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_task_successful">Task updated</string>
+
+    <!-- Toast message in editor when current task has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_task_failed">Error with updating task</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current task was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_task_successful">Task deleted</string>
+
+    <!-- Toast message in editor when current task has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_task_failed">Error with deleting task</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current task [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this task?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current task [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current task [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="add_date">Add date...</string>
+
+
+</resources>
